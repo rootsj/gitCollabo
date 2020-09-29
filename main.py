@@ -1,13 +1,7 @@
 import subtract
-
-def add(x, y):
-  return x + y
-
-def multiply(x, y):
-  return x * y
-
-def divide(x, y):
-  return x / y
+import multiply
+import add
+import divide
 
 print("사칙연산을 선택 하세요.")
 print("1.더하기")
