@@ -15,15 +15,15 @@ num1 = int(input("첫번째 숫자 : "))
 num2 = int(input("두번째 숫자 : "))
 
 if choice == '1':
-   print(num1,"+",num2,"=", add(num1,num2))
+   print(num1,"+",num2,"=", add.add(num1,num2))
 
 elif choice == '2':
    print(num1,"-",num2,"=", subtract.subtract(num1, num2))
 
 elif choice == '3':
-   print(num1,"*",num2,"=", multiply(num1,num2))
+   print(num1,"*",num2,"=", multiply.multiply(num1,num2))
 
 elif choice == '4':
-   print(num1,"/",num2,"=", divide(num1,num2))
+   print(num1,"/",num2,"=", divide.divide(num1,num2))
 else:
    print("잘못된 선택")
